@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>REST</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body style="margin: 20px; --bs-border-opacity: .3;" class="border" style="background-color: #e2d9f3;">
+    <div class="container text-center border" style="background-color: #e2d9f3; padding: 20px; --bs-border-opacity: .3;">
+        <div class="col">
+            <h1><b>REST</b> Activity</h1>
+        </div>
+        <div class="row row mt-4">
+            <div class="col">
+                <button id="allPosts" type="button" class="btn btn-dark" style="background-color: #432874; border-color: #432874;">Get All Posts</button>
+            </div>
+            <div class="col">
+                <button id="post10" type="button" class="btn btn-dark" style="background-color: #432874; border-color: #432874;">Get post with ID 10</button>
+            </div>
+            <div class="col">
+                <button id="newPost" type="button" class="btn btn-dark" style="background-color: #432874; border-color: #432874;">Create New Post</button>
+            </div>
+            <div class="col">
+                <button id="replacePost12" type="button" class="btn btn-dark" style="background-color: #432874; border-color: #432874;">Replace post 12</button>
+            </div>
+            <div class="col">
+                <button id="updatePost12" type="button" class="btn btn-dark" style="background-color: #432874; border-color: #432874;">Update title of post 12</button>
+            </div>
+            <div class="col">
+                <button id="deletePost12" type="button" class="btn btn-dark" style="background-color: #432874; border-color: #432874;">Delete post 12</button>
+            </div>
+        </div>
+        <div id="postsContainer" class="row mt-4">
+           
+        </div>
+    </div>
+    <script src="REST.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
